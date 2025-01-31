@@ -1,5 +1,6 @@
     package nimesh.luhana.finclutech.data.model
 
+
     import com.google.gson.annotations.SerializedName
 
     data class Response(
@@ -30,9 +31,23 @@
         val label: LocalizedText,
         val type: String,
         val validation: String,
+        val placeholder: Placeholder,
         val maxLength: Int,
         val options: List<Option> = emptyList()
-    )
+    ){
+        fun getPlaceholder(): String {
+            return when (placeholder) {
+                is Placeholder.StringValue -> placeholder.value
+                is Placeholder.LocalizedValue -> placeholder.en ?: placeholder.ar ?: ""
+                else -> {""}
+            }
+        }
+    }
+    sealed class Placeholder {
+        data class StringValue(val value: String) : Placeholder()
+        data class LocalizedValue(val en: String? = null, val ar: String? = null) : Placeholder()
+        object NullValue : Placeholder()
+    }
 
     data class Option(
         val label: String,

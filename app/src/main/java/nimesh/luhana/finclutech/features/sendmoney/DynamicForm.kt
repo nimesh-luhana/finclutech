@@ -37,7 +37,7 @@ fun DynamicForm(fields: List<Field>, viewModel: SendMoneyViewModel) {
                             .fillMaxWidth()
                     )
                     TextField(
-                        value =  field.name ?: "",
+                        value =  field.getPlaceholder(),
                         onValueChange = { viewModel.updateField(field.name, it) },
                         label = { Text("en") },
                         modifier = Modifier.fillMaxWidth()

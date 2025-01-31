@@ -32,7 +32,7 @@
                 " مقر باسحلا يفرصملا ": "ar "
               },
               "name": "bank_account_number",
-              "placeholder": null,
+              "placeholder": "",
               "type": "text",
               "validation": "^[A-Za-z0-9 ]{1,64}$",
               "max_length": "64",
@@ -86,7 +86,7 @@
                 " مقر باسحلا يفرصملا ": "ar "
               },
               "name": "bank_account_number",
-              "placeholder": null,
+              "placeholder": "",
               "type": "text",
               "validation": "^[A-Za-z0-9 ]{1,64}$",
               "max_length": "64",
@@ -116,7 +116,7 @@
                 " ةراملإا ": "ar "
               },
               "name": "province_state",
-              "placeholder": null,
+              "placeholder": "",
               "options": [
                 {
                   "label": "Abu Dhabi",
@@ -156,7 +156,7 @@
                 " مقر باسحلا يفرصملا ": "ar "
               },
               "name": "bank_account_number",
-              "placeholder": null,
+              "placeholder": "",
               "type": "text",
               "validation": "^[A-Za-z0-9 ]{1,64}$",
               "max_length": "64",
@@ -180,7 +180,7 @@
                 " سنجلا ": "ar "
               },
               "name": "gender",
-              "placeholder": null,
+              "placeholder": "",
               "type": "option",
               "options": [
                 {
@@ -220,7 +220,7 @@
                 " مقر باسحلا يفرصملا ": "ar "
               },
               "name": "bank_account_number",
-              "placeholder": null,
+              "placeholder": "",
               "type": "text",
               "validation": "^[A-Za-z0-9 ]{1,64}$",
               "max_length": "64",
@@ -244,7 +244,7 @@
                 " سنجلا ": "ar "
               },
               "name": "gender",
-              "placeholder": null,
+              "placeholder": "",
               "type": "option",
               "options": [
                 {
@@ -284,7 +284,7 @@
                 " مقر باسحلا يفرصملا ": "ar "
               },
               "name": "bank_account_number",
-              "placeholder": null,
+              "placeholder": "",
               "type": "text",
               "validation": "^[A-Za-z0-9 ]{1,64}$",
               "max_length": "64",
@@ -334,7 +334,7 @@
                 " مقر فتاھلا كرحتملا ": "ar "
               },
               "name": "msisdn",
-              "placeholder": null,
+              "placeholder": "",
               "type": "msisdn",
               "validation": "^\\+?[1-9][0-9]{6,14}$",
               "max_length": "14",
@@ -388,7 +388,7 @@
                 " مقر فتاھلا كرحتملا ": "ar "
               },
               "name": "msisdn",
-              "placeholder": null,
+              "placeholder": "",
               "type": "msisdn",
               "validation": "^\\+?[1-9][0-9]{6,14}$",
               "max_length": "14",
@@ -418,7 +418,7 @@
                 " سنجلا ": "ar "
               },
               "name": "gender",
-              "placeholder": null,
+              "placeholder": "",
               "type": "option",
               "options": [
                 {
@@ -458,7 +458,7 @@
                 " مقر فتاھلا كرحتملا ": "ar "
               },
               "name": "msisdn",
-              "placeholder": null,
+              "placeholder": "",
               "type": "msisdn",
               "validation": "^\\+?[1-9][0-9]{6,14}$",
               "max_length": "14",
@@ -470,7 +470,7 @@
                 " ةراملإا ": "ar "
               },
               "name": "province_state",
-              "placeholder": null,
+              "placeholder": "",
               "options": [
                 {
                   "label": "Abu Dhabi",
@@ -532,7 +532,7 @@
                 " مقر فتاھلا كرحتملا ": "ar "
               },
               "name": "msisdn",
-              "placeholder": null,
+              "placeholder": "",
               "type": "msisdn",
               "validation": "^\\+?[1-9][0-9]{6,14}$",
               "max_length": "14",
@@ -580,7 +580,7 @@
                 " مقر فتاھلا كرحتملا ": "ar "
               },
               "name": "msisdn",
-              "placeholder": null,
+              "placeholder": "",
               "type": "msisdn",
               "validation": "^\\+?[1-9][0-9]{6,14}$",
               "max_length": "14",
@@ -595,8 +595,7 @@
               "placeholder": "YYYY-MM-DD",
               "type": "text",
               "validation": "^(?:19|20)\\d{2}-(0[1-9]|1[0-2])-(0[1-9]|[12]\\d|3[01])$",
-              "max_length": "",
-              "": null
+              "max_length": ""
             }
           ]
         }

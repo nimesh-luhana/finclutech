@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">تطبيق إرسال الأموال</string>
+    <string name="username">اسم المستخدم</string>
+    <string name="password">كلمة المرور</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="error_invalid_credentials">اسم المستخدم أو كلمة المرور غير صحيحة</string>
+    <string name="submit">إرسال</string>
+</resources>

@@ -4,8 +4,8 @@ This project is built using Kotlin and follows modern Android development practi
 Tech Stack
 
 *   Kotlin: The primary programming language.
-*   Jetpack Compose:** For building the user interface.
-*   ViewModel:** For managing UI-related data.
-*   LiveData/StateFlow:** For observing data changes.
-*   Hilt:** For dependency injection.
-*   Navigation Component:** For managing app navigation.
+*   Jetpack Compose: For building the user interface.
+*   ViewModel: For managing UI-related data.
+*   LiveData/StateFlow: For observing data changes.
+*   Hilt: For dependency injection.
+*   Navigation Component: For managing app navigation.
